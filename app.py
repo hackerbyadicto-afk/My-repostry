@@ -8,7 +8,7 @@ def check(m,n,k):
         return m-k
     elif n=="*":
         return m*k
-    elif n==":" or n=="/":
+    elif n=="/":
         return m/k
     elif n=="%":
         return m*k/100
